@@ -1,0 +1,10 @@
+[workspace]
+members = ["chapter_1"]
+resolver = "3"
+
+[workspace.package]
+authors = ["thepackett"]
+description = "All the individual projects referenced in the \"Bevy Rendering Fundamentals\" mdbook."
+
+[workspace.dependencies]
+bevy = "0.17.2"
